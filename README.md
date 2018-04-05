@@ -14,6 +14,13 @@ sudo systemctl enable mqtt-mpd-controller.service
 sudo systemctl start mqtt-mpd-controller.service
 ```
 
+# Installing Prerequisits
+
+```sh
+sudo apt install mpc
+sudo pip3 install paho-mqtt
+```
+
 # Caveats
 
 As of now, it is assumed that a local mpd instance is running and mpc is installed.
